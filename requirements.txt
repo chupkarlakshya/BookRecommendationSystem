@@ -1,0 +1,10 @@
+Dataset not included due to size.
+
+Download from:
+https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset
+
+After downloading, place:
+BX-Books.csv
+BX-Book-Ratings.csv
+
+in the same folder as the Python file.
