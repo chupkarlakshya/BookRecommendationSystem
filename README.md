@@ -31,7 +31,7 @@ Save `book_recommender.py` into a folder on your computer.
 
 ### 4. Run the app
 ```bash
-streamlit run book_recommender.py
+python -m streamlit run book_recommender.py
 ```
 
 The app will open automatically in your browser. If it doesn't, go to `http://localhost:8501`.
@@ -39,6 +39,7 @@ The app will open automatically in your browser. If it doesn't, go to `http://lo
 > The first load takes a minute — it's downloading and processing the dataset from Google Drive.
 
 ---
+
 
 ## How to Use It
 
