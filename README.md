@@ -63,7 +63,7 @@ Before making recommendations, the data is filtered to improve quality:
 
 This removes noise from users who barely interacted with the platform and books with too little data.
 
-#### Recommendation — L2 Norm (Euclidean Distance)
+### Recommendation — L2 Norm (Euclidean Distance)
 Each book is represented as a **vector** — a list of ratings given by every user. To find similar books, the app calculates the **Euclidean distance** (also called the L2 norm) between two book vectors:
 
 ```
