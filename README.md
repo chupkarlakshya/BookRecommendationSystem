@@ -1,4 +1,4 @@
-# 📚 Book Recommendation System
+#  Book Recommendation System
 
 A web app that recommends books based on what similar users have rated. Built with Python and Streamlit, using a real-world dataset of 1 million book ratings.
 
@@ -52,7 +52,7 @@ The app will open automatically in your browser. If it doesn't, go to `http://lo
 ## How It Works
 
 ### Data
-The app uses two files from the [Book-Crossing dataset](http://www2.informatik.uni-freiburg.de/~cziegler/BX/):
+The app uses two files from the [Book-Crossing dataset](https://www.kaggle.com/datasets/ra4u12/bookrecommendation):
 - `Books.csv` — book titles and ISBNs
 - `Ratings.csv` — user ratings (scale of 1–10)
 
