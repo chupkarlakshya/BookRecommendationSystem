@@ -53,8 +53,8 @@ The app will open automatically in your browser. If it doesn't, go to `http://lo
 
 ### Data
 The app uses two files from the [Book-Crossing dataset](https://www.kaggle.com/datasets/ra4u12/bookrecommendation):
-- `Books.csv` — book titles and ISBNs
-- `Ratings.csv` — user ratings (scale of 1–10)
+- `BX-Books.csv` — book titles and ISBNs
+- `BX-Book-Ratings.csv` — user ratings (scale of 1–10)
 
 ### Filtering
 Before making recommendations, the data is filtered to improve quality:
