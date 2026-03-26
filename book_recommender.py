@@ -1,3 +1,22 @@
+import pandas as pd
+import numpy as np
+import streamlit as st
+
+# ================================
+# STEP 1: SET UP THE PAGE
+# ================================
+
+# This sets the title that appears at the top
+st.title(" Book Recommendation System")
+
+
+
+# These are download links to two files stored on Google Drive:
+# - books_url: contains book info (ISBN number and book title)
+# - ratings_url: contains ratings (which user rated which book, and what score they gave)
+books_url = "https://drive.google.com/uc?export=download&id=1rEE9L2f5x0lovm9Xyd2_QgnJe4HuBLe-"
+ratings_url = "https://drive.google.com/uc?export=download&id=13bCAwIpp61k41IwjAGV00MVEnXzgqNJx"
+
 
 def load_data():
     # load files
@@ -17,7 +36,7 @@ def load_data():
     active_users = user_counts[user_counts >= 10].index
     data = data[data['User-ID'].isin(active_users)]
 
-    # filter books (IMPORTANT: reduce size)
+    # filter books 
     book_counts = data['Book-Title'].value_counts()
     popular_books = book_counts[book_counts >= 100].index
     data = data[data['Book-Title'].isin(popular_books)]
