@@ -17,6 +17,7 @@ st.title(" Book Recommendation System")
 books_url = "https://drive.google.com/uc?export=download&id=1rEE9L2f5x0lovm9Xyd2_QgnJe4HuBLe-"
 ratings_url = "https://drive.google.com/uc?export=download&id=13bCAwIpp61k41IwjAGV00MVEnXzgqNJx"
 
+@st.cache_data
 
 def load_data():
     # load files
