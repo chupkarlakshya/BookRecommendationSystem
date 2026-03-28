@@ -1,3 +1,4 @@
 Chose Book recommendation application (personal problem, finding what book to read next)
 Chose an online book database, and a book rating databas (uploaded those csv files to personal gdrive account for better usage)
 Chose Streamlit for UI as found it easiest to use
+chose to use l2 norm for ml usage
