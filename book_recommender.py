@@ -6,7 +6,7 @@ import streamlit as st
 # STEP 1: SET UP THE PAGE
 # ================================
 
-
+# This sets the title that appears at the top of the web app
 st.title(" Book Recommendation System")
 
 
