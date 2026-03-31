@@ -53,7 +53,7 @@ The app will open automatically in your browser. If it doesn't, go to `http://lo
 ## How It Works
 
 ### Data
-The app uses two files from the [Book-Crossing dataset](https://www.kaggle.com/datasets/ra4u12/bookrecommendation):
+The app uses two files from the [Kaggle Database](https://www.kaggle.com/datasets/ra4u12/bookrecommendation):
 - `BX-Books.csv` — book titles and ISBNs
 - `BX-Book-Ratings.csv` — user ratings (scale of 1–10)
 
@@ -64,7 +64,7 @@ Before making recommendations, the data is filtered to improve quality:
 
 This removes noise from users who barely interacted with the platform and books with too little data.
 
-### Recommendation — L2 Norm (Euclidean Distance)
+### Recommendation System — L2 Norm (Euclidean Distance)
 Each book is represented as a **vector** — a list of ratings given by every user. To find similar books, the app calculates the **Euclidean distance** (also called the L2 norm) between two book vectors:
 
 ```
